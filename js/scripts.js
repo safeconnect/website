@@ -22,7 +22,7 @@
 
   /* Countdown Timer */
   $("#clock")
-    .countdown("2019/04/30 00:00:00") /* change here your "countdown to" date */
+    .countdown("2019/09/30 00:00:00") /* change here your "countdown to" date */
     .on("update.countdown", function(event) {
       var format =
         '<span class="counter-number">%D<br><span class="timer-text">Days</span></span><span class="counter-number">%H<br><span class="timer-text">Hours</span></span><span class="counter-number">%M<br><span class="timer-text">Minutes</span></span><span class="counter-number">%S<br><span class="timer-text">Seconds</span></span>';
